@@ -1,0 +1,105 @@
+main{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 245, 231);
+    padding: 10% 0;
+    margin: 0 10%;
+}
+.link-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(234, 233, 233);
+    margin: 0 10%;
+    border: solid rgb(223, 137, 62) 2px;
+    border-radius: 5px;
+    padding: 5% ;
+    
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 1% 5%;
+    transition: background 0.55s;
+    text-align: left;
+}
+.link a{
+    color: darkblue;
+}
+.link:hover{
+    background-color: rgb(169, 169, 169);
+}
+
+.comp-pic img{
+    width: 50%;
+    height: 40%;
+    margin: 10%;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.45);
+}
+.link-list a{
+    text-decoration: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+form input{
+    height: 200px;
+    width: 350px;
+    border: solid 2px grey;
+    text-align: start;
+}
+form input:active{
+    border-color: darkblue;
+}
+form button{
+    margin-top: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    border-radius: 3px;
+    padding: 5px 7px;
+    width: 100px;
+}
+form button:hover{
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(79, 75, 75);
+    height: 6rem;
+    color: white;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: wheat;
+    display: block;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(3, 175, 255);
+}
+footer p{
+    margin: 0;
+}
